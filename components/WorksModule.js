@@ -52,9 +52,9 @@ What is {title}
 <Typography  variant="body2" color="text.secondary" >
 
 {description}
-<p>
+
 <a href={link} style={{textDecoration: 'underline'}}>{link}</a>
-</p>
+
 </Typography>
 </Box>
 <Grid container alignItems="center"  style={{justifyContent: 'space-between' ,maxWidth: 400, paddingTop:'2%',}} >

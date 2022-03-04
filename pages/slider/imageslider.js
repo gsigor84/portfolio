@@ -1,13 +1,12 @@
-import React,{useState} from 'react'
 import Image from 'next/image'
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import NavigateBeforeIcon from '@mui/icons-material/NavigateBefore';
+import React, { useState } from 'react';
 
 
 
-const Imageslider = ({slides}) => {
+function Imageslider  ({slides}) {
 const[current, setCurrent]=useState(0);
-
 
 const length = slides.length;
 

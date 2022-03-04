@@ -77,9 +77,9 @@ fullWidth
 
 <Box style={{ paddingRight:'2%',paddingTop:'2%',}} >
 
-<Typography  variant="h7" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600',textDecoration: 'underline',textAlign: 'right' }}  >
+<Typography  variant="h7" gutterBottom component="div" sx={{ textDecoration: 'underline',textAlign: 'right' }}  >
 
-<input type="submit" value="Submit" style={{fontFamily: 'Nunito Sans', fontWeight: '600',textDecoration: 'underline',textAlign: 'right' }} />
+<input type="submit" value="Submit" style={{textDecoration: 'underline',textAlign: 'right' }} />
 </Typography>
 
 </Box>

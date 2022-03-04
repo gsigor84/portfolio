@@ -32,7 +32,7 @@ export default function Sma() {
   
     return(
 
-<Layout>
+
 <WorksModule 
 title={'Social Media Automation'}
 description={descripiton}
@@ -41,7 +41,7 @@ slides={slides}
 logo={'/smalogo.png'}
 />
 
-</Layout>
+
     )
 
 }

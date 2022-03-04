@@ -1,11 +1,11 @@
-import * as React from 'react';
+
 import Bio from './bio.js'
 import Works from './works.js'
 import Know from './know'
 import Form from './form'
 import Blog from './blog'
-import Layout from '../components/LayoutModule'
 import Grid from '@mui/material/Grid';
+
 
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
 
-<Layout>
+
 
 <Grid container  spacing={4} >
 
@@ -40,7 +40,7 @@ export default function Home() {
 </Grid>
 
 
-</Layout>
+
 
   )
 }

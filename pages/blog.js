@@ -1,4 +1,4 @@
-import React from 'react'
+
 import Grid from '@mui/material/Grid';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
@@ -6,7 +6,7 @@ import Typography from '@mui/material/Typography';
 import Image from 'next/image'
 
 
-const blog = () => {
+const Blog = () => {
   return (
  
     <Grid  container  spacing={4} >
@@ -59,4 +59,4 @@ const itemData = [
  
   ];
 
-export default blog
+export default Blog

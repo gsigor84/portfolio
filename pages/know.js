@@ -3,7 +3,7 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 
 
-export default function Bio() {
+function Know () {
 
     return(
 
@@ -72,3 +72,4 @@ export default function Bio() {
 
     )
 }
+export default Know

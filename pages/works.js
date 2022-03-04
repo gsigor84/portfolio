@@ -1,4 +1,4 @@
-import * as React from 'react';
+
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Card from '@mui/material/Card';
@@ -18,7 +18,7 @@ export default function Works() {
 <Grid container  spacing={4} >
   
 <Grid item xs={12} md={12} > 
-<Typography variant="h5" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
+<Typography variant="h5"   sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
 Works
 </Typography>
 </Grid>
@@ -40,7 +40,7 @@ Works
       
       <CardContent  >
     
-        <Typography gutterBottom variant="h6" key={index}>
+        <Typography variant="h6" key={index}>
          {item.title}
         </Typography>
     
@@ -51,7 +51,7 @@ Works
         </Typography>
       </CardContent>
       <CardActions>
-      <Typography variant="h7" gutterBottom component="div" sx={{margin:'0' ,paddingTop:'2%',fontFamily: 'Nunito Sans', fontWeight: '600',textDecoration: 'underline' }} >
+      <Typography variant="h7"   sx={{margin:'0' ,paddingTop:'2%', fontWeight: '600',textDecoration: 'underline' }} >
       <Link href={item.link} key={index}>
       See More
         </Link>

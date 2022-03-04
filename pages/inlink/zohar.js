@@ -41,7 +41,7 @@ export default function Zohar() {
   
     return(
 
-<Layout>
+
 <WorksModule 
 title={'Zohar News'}
 description={description}
@@ -52,7 +52,7 @@ link={link}
 
 />
 
-</Layout>
+
     )
 
 }

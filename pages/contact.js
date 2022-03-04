@@ -1,8 +1,6 @@
-import React from 'react'
 import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
-import Layout from '../components/LayoutModule';
 import Link from 'next/link'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Avatar from '@mui/material/Avatar';
@@ -24,9 +22,9 @@ const icons= [
   }
   ]
 
-const contact = () => {
+const Contact = () => {
   return (
-    <Layout>
+    <div>
     <Box sx={{  paddingBottom:'25%', paddingTop:'5%',}} >
     <Grid  container style={{margin:'2%'}} >
       <Grid style={{textAlign: 'center',display: 'inline-block'}}>
@@ -38,11 +36,11 @@ const contact = () => {
 </Typography>
 </Grid>
 </Grid>
-<Grid item spacing={2} xs={10} >
+<Grid item  xs={10} >
                 
 <Avatar alt="Remy Sharp" src="/1.png"  sx={{ width: '20%', height:'20%'}}/>
                 </Grid>
-            <Grid   spacing={2} style={{padding:'3%'}}>
+            <Grid   style={{padding:'3%'}}>
                 <Box>
             <Typography variant="h6"   color="text.secondary" >
                 
@@ -66,7 +64,7 @@ webdevigs@gmail.com
 
 return(
    <Grid item xs={2} key={index}>
-        <a href={icon.link} passHref={true}>
+        <a href={icon.link} >
            <Image src={icon.image} alt='custmon' className='image'  width={50} height={50}/>
       </a>
    </Grid>
@@ -77,8 +75,8 @@ return(
 
                 </Grid>
                 </Box>
-                </Layout>
+                </div>
   )
 }
 
-export default contact
+export default Contact

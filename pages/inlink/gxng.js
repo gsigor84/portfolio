@@ -1,5 +1,4 @@
 import WorksModule from "../../components/WorksModule"
-import Layout from '../../components/LayoutModule'
 
 const img= [
   {
@@ -35,7 +34,7 @@ export default function Gxng() {
   
     return(
 
-<Layout>
+
 <WorksModule 
 title={'GXNG Fitness'}
 description={description}
@@ -45,7 +44,7 @@ logo={'/gxnglogo.png'}
 link={link}
 />
 
-</Layout>
+
     )
 
 }
