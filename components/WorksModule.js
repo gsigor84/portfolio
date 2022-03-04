@@ -3,7 +3,6 @@ import Box from '@mui/material/Box';
 import CardMedia from '@mui/material/CardMedia';
 import Card from '@mui/material/Card';
 import Grid from '@mui/material/Grid';
-import ImageList from '../pages/slider/imageslider'
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Link from 'next/link'
 import Image from 'next/image'
