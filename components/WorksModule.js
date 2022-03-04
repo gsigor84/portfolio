@@ -73,7 +73,6 @@ return(
 </Grid>
 <Box style={{backgroundColor:'#F9F9F9',position: 'relative',marginBlock:'10%',padding:'5%',width:'80%'}}>
 
-<ImageList slides={slides}/>
 
 </Box>
 
