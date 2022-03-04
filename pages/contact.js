@@ -1,0 +1,84 @@
+import React from 'react'
+import Box from '@mui/material/Box';
+import Typography from '@mui/material/Typography';
+import Grid from '@mui/material/Grid';
+import Layout from '../components/LayoutModule';
+import Link from 'next/link'
+import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import Avatar from '@mui/material/Avatar';
+import Image from 'next/image'
+
+
+const icons= [
+    {
+        image:'/icons/medium.png',
+        link:'https://medium.com/@webdevigs'
+    },
+    {
+        image:'/icons/github.png',
+        link:'https://github.com/gsigor84'
+    },
+    {
+      image:'/icons/linkedin.png',
+      link:'https://www.linkedin.com/in/igor-silva-935917233'
+  }
+  ]
+
+const contact = () => {
+  return (
+    <Layout>
+    <Box sx={{  paddingBottom:'25%', paddingTop:'5%',}} >
+    <Grid  container style={{margin:'2%'}} >
+      <Grid style={{textAlign: 'center',display: 'inline-block'}}>
+      <ArrowBackIcon sx={{ fontSize: 20 }} color="text.secondary" />
+      </Grid>
+    <Grid  style={{display: 'inline-block',paddingLeft:'1%'}}>  
+      <Typography color="text.secondary"  variant="h6" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
+<Link href="/" >Back to home </Link>
+</Typography>
+</Grid>
+</Grid>
+<Grid item spacing={2} xs={10} >
+                
+<Avatar alt="Remy Sharp" src="/1.png"  sx={{ width: '20%', height:'20%'}}/>
+                </Grid>
+            <Grid   spacing={2} style={{padding:'3%'}}>
+                <Box>
+            <Typography variant="h6"   color="text.secondary" >
+                
+            I grew up in Sao Paulo.
+After I got my hands wet with python I soon discovered my passion for programming while doing web scrapping. 
+Now I live in England working full time freelance as a Web Developer. In my spare time I like to go to the gym and reading. 
+I enjoy building interactive, social media applications with an eye on animated content.
+If you fancy a chat feel free to contact me:
+                </Typography>
+</Box>
+<Box>
+
+<Typography  variant="h6" color="text.secondary" >
+webdevigs@gmail.com
+</Typography>
+
+</Box>
+                <Grid  container  style={{maxWidth: 400, paddingTop:'5%',}} >
+
+{icons.map((icon,index)=>{
+
+return(
+   <Grid item xs={2} key={index}>
+        <a href={icon.link} passHref={true}>
+           <Image src={icon.image} alt='custmon' className='image'  width={50} height={50}/>
+      </a>
+   </Grid>
+)
+
+})}
+</Grid>
+
+                </Grid>
+                </Box>
+                </Layout>
+  )
+}
+
+export default contact

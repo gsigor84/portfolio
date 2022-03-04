@@ -1,0 +1,47 @@
+import WorksModule from "../../components/WorksModule"
+import Layout from '../../components/LayoutModule'
+
+const img= [
+  {
+      image:'/icons/python.png'
+  },
+  {
+    image:'/icons/facebook.png'
+},
+{
+    image:'/icons/instagram.png'
+},
+
+]
+
+
+const slides= [
+  {
+      image:'/apps/s1.png'
+  },
+  {
+    image:'/apps/s2.png'
+},  {
+    image:'/apps/s3.png'
+}]
+
+const descripiton = 'Written in Python Scrap the web and the social media Apps to create content for your Facebook and Instagram. Automatic post on your social media: Photos, Videos and Links.'
+
+export default function Sma() {
+
+  
+    return(
+
+<Layout>
+<WorksModule 
+title={'Social Media Automation'}
+description={descripiton}
+icons={img}
+slides={slides}
+logo={'/smalogo.png'}
+/>
+
+</Layout>
+    )
+
+}

@@ -44,6 +44,12 @@ a {
   user-select: none;
 }
 
+.img{
+  object-fit: contain;
+  position: relative !important;
+  height: unset !important;
+}
+
 * {
   box-sizing: border-box;
 }
