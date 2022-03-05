@@ -27,21 +27,26 @@ const Contact = () => {
     <div>
     <Box sx={{  paddingBottom:'25%', paddingTop:'5%',}} >
    
-    <Grid container  >
 
-<Box  sx={{width: 30,paddingTop:'0.5%',marginLeft:'2%',marginBottom:'3%'}}>
-   <ArrowBackIcon sx={{ fontSize: 20 }} color="text.secondary" /> 
-   </Box>
+    <Grid container spacing={1}  >
 
-   <Grid item xs={11} md={10} >
+<Grid item xs={1} md={1} sx={{marginTop:'1%'}} >
 
-   <Typography color="text.secondary"  variant="h6" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
+      <ArrowBackIcon sx={{ fontSize: 20 }} color="text.secondary" /> 
+
+      </Grid>
+
+
+      <Grid item xs={11} md={11} >
+  
+      <Typography color="text.secondary"  variant="h6" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
 <Link href="/" >Back to home </Link>
 </Typography>
 
 </Grid>
 </Grid>
-<Grid item  xs={10} >
+
+<Grid item  xs={10} sx={{marginTop:'3%'}} >
                 
 <Avatar alt="Remy Sharp" src="/1.png"  sx={{ width: '20%', height:'20%'}}/>
                 </Grid>
@@ -58,7 +63,7 @@ If you fancy a chat feel free to contact me:
 </Box>
 <Box>
 
-<Typography  variant="h6" color="text.secondary" >
+<Typography  variant="h6" color="text.secondary" sx={{marginTop:'3%'}}  >
 webdevigs@gmail.com
 </Typography>
 
