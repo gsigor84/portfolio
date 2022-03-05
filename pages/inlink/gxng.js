@@ -13,15 +13,13 @@ const img= [
 ]
 
 const slides= [
+    { url: '/apps/g1.png' },
   {
-      image:'/apps/g1.png'
-  },
-  {
-    image:'/apps/g2.png'
+    url: '/apps/g2.png'
 },  {
-    image:'/apps/g3.png'
+    url: '/apps/g3.png'
 },  {
-    image:'/apps/g4.png'
+    url: '/apps/g4.png'
 },
 ]
 

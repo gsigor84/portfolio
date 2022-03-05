@@ -21,13 +21,13 @@ const img= [
 
 const slides= [
   {
-      image:'/apps/z1.png'
+    url: '/apps/z1.png'
   },
   {
-      image:'/apps/z2.png'
+    url: '/apps/z2.png'
   },
   {
-      image:'/apps/z3.png'
+    url: '/apps/z3.png'
   },
 
 ]

@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Link from 'next/link'
 import Image from 'next/image'
-
+import SimpleImageSlider from "react-simple-image-slider";
 
 
 
@@ -16,15 +16,9 @@ export default function worksModule({title,description,icons,slides,logo,link}) 
     return(
 
 
-<Box
-      sx={{
-        width: '100%',
-        height: 100,
-        paddingBottom:'25%',
-        paddingTop:'5%',
-      }}
-    >
-      <Grid style={{marginBottom:'2%'}} >
+<Grid container  spacing={4}  sx={{paddingTop:'3%'}}>
+  
+<Grid item xs={12} md={12}  >
       <Grid style={{textAlign: 'center',display: 'inline-block'}}>
       <ArrowBackIcon sx={{ fontSize: 20 }} color="text.secondary" />
       </Grid>
@@ -34,6 +28,8 @@ export default function worksModule({title,description,icons,slides,logo,link}) 
 </Typography>
 </Grid>
 </Grid>
+
+<Grid item xs={12} md={12}  >
          <Card sx={{ maxWidth: 345 }}    style={{boxShadow: "none"}}>
  <CardMedia
         component="img"
@@ -43,7 +39,8 @@ export default function worksModule({title,description,icons,slides,logo,link}) 
       
       />
       </Card>
-      <Box sx={{ maxWidth: 800,paddingTop:'2%' }}  >
+      </Grid>
+      <Grid item xs={12} md={12}  >
 <Typography variant="h5" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
 What is {title}
 </Typography>
@@ -55,8 +52,8 @@ What is {title}
 <a href={link} style={{textDecoration: 'underline'}}>{link}</a>
 
 </Typography>
-</Box>
-<Grid container alignItems="center"  style={{justifyContent: 'space-between' ,maxWidth: 400, paddingTop:'2%',}} >
+</Grid>
+<Grid container alignItems="center"  style={{justifyContent: 'space-between' ,maxWidth: 400, paddingTop:'2%',paddingBottom:'3%'}} >
 
 {icons.map((icon,index)=>{
 
@@ -70,13 +67,17 @@ return(
 
 })}
 </Grid>
-<Box style={{backgroundColor:'#F9F9F9',position: 'relative',marginBlock:'10%',padding:'5%',width:'80%'}}>
+<Grid item xs={12} md={12}  >
+<SimpleImageSlider
+        width={'60%'}
+        height={'50%'}
+        images={slides}
+        showBullets={true}
+        showNavs={true}
+      />
+</Grid>
 
-
-</Box>
-
-
-        </Box>
+</Grid>
 
 
     )

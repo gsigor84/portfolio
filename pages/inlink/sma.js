@@ -17,12 +17,12 @@ const img= [
 
 const slides= [
   {
-      image:'/apps/s1.png'
+    url: '/apps/s1.png'
   },
   {
-    image:'/apps/s2.png'
+    url: '/apps/s2.png'
 },  {
-    image:'/apps/s3.png'
+    url: '/apps/s3.png'
 }]
 
 const descripiton = 'Written in Python Scrap the web and the social media Apps to create content for your Facebook and Instagram. Automatic post on your social media: Photos, Videos and Links.'
