@@ -74,8 +74,8 @@ return(
 <Grid item   style={{paddingRight:'5%' }}>
 
     <SimpleImageSlider
-    width={800}
-    height={800}
+    width={1000}
+    height={900}
     images={slides}
     showBullets={true}
     showNavs={true}
