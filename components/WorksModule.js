@@ -59,7 +59,7 @@ What is {title}
 
 return(
    
-<Grid item xs={2} md={1} sx={{padding:'2%'}}  >
+<Grid item xs={2} md={1} sx={{padding:'2%'}} key={index} >
            <Image src={icon.image} alt='custmon' width={50} height={50}/>
            </Grid>
 
