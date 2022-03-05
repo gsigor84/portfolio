@@ -20,13 +20,16 @@ export default function worksModule({title,description,icons,logo,link,slides}) 
   
 <Grid item xs={12} md={12}  >
 
-<Grid container  >
+<Grid container spacing={1}  >
 
-   <Box  sx={{width: 30,paddingTop:'0.5%'}}>
+<Grid item xs={1} md={1} sx={{marginTop:'1%'}} >
+
       <ArrowBackIcon sx={{ fontSize: 20 }} color="text.secondary" /> 
-      </Box>
 
-      <Grid item xs={11} md={10} >
+      </Grid>
+
+
+      <Grid item xs={11} md={11} >
   
       <Typography color="text.secondary"  variant="h6" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
 <Link href="/" >Back to home </Link>
