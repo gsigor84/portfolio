@@ -26,14 +26,19 @@ const Contact = () => {
   return (
     <div>
     <Box sx={{  paddingBottom:'25%', paddingTop:'5%',}} >
-    <Grid  container style={{margin:'2%'}} >
-      <Grid style={{textAlign: 'center',display: 'inline-block'}}>
-      <ArrowBackIcon sx={{ fontSize: 20 }} color="text.secondary" />
-      </Grid>
-    <Grid  style={{display: 'inline-block',paddingLeft:'1%'}}>  
-      <Typography color="text.secondary"  variant="h6" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
+   
+    <Grid container  >
+
+<Box  sx={{width: 30,paddingTop:'0.5%',marginLeft:'2%',marginBottom:'3%'}}>
+   <ArrowBackIcon sx={{ fontSize: 20 }} color="text.secondary" /> 
+   </Box>
+
+   <Grid item xs={11} md={10} >
+
+   <Typography color="text.secondary"  variant="h6" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
 <Link href="/" >Back to home </Link>
 </Typography>
+
 </Grid>
 </Grid>
 <Grid item  xs={10} >
