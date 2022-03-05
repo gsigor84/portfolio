@@ -6,7 +6,7 @@ import Grid from '@mui/material/Grid';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Link from 'next/link'
 import Image from 'next/image'
-import Slider from '../pages/inlink/slider'
+import SimpleImageSlider from "react-simple-image-slider";
 
 
 
@@ -72,7 +72,15 @@ return(
 </Grid>
 
 <Grid item   style={{paddingRight:'5%' }}>
-<Slider slides={slides}/>
+
+    <SimpleImageSlider
+    width={800}
+    height={800}
+    images={slides}
+    showBullets={true}
+    showNavs={true}
+   
+  />
 </Grid>
 
 </Grid>
