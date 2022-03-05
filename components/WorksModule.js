@@ -53,28 +53,33 @@ What is {title}
 
 </Typography>
 </Grid>
-<Grid container alignItems="center"  style={{justifyContent: 'space-between' ,maxWidth: 400, paddingTop:'2%',paddingBottom:'3%'}} >
+<Grid container sx={{padding:'2%'}} >
 
 {icons.map((icon,index)=>{
 
 return(
-   <div key={index}>
-      
-           <Image src={icon.image} alt='custmon'  className='image' width={50} height={50}/>
-      
-   </div>
+   
+<Grid item xs={2} md={1} sx={{padding:'2%'}}  >
+           <Image src={icon.image} alt='custmon' width={50} height={50}/>
+           </Grid>
+
 )
 
 })}
 </Grid>
-<Grid item xs={12} md={12}  >
+
+<Grid container sx={{padding:'2%'}} >
+
+  
 <SimpleImageSlider
-        width={'60%'}
-        height={'50%'}
+        width={800}
+        height={800}
         images={slides}
         showBullets={true}
         showNavs={true}
+        
       />
+  
 </Grid>
 
 </Grid>

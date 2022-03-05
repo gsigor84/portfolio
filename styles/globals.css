@@ -19,12 +19,6 @@ a {
   display:block
 }
 
-.image{
-  object-fit: contain;
-  width: 100% ;
-  position: relative ;
-  height: unset ;
-}
 
 .right-arrow{
   position: absolute;
@@ -52,4 +46,11 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+@media (min-width:480px){
+
+  .rsis {
+    width: 100px;
+  }
 }
