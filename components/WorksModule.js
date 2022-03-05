@@ -19,13 +19,16 @@ export default function worksModule({title,description,icons,slides,logo,link}) 
 <Grid container  spacing={4}  sx={{paddingTop:'3%'}}>
   
 <Grid item xs={12} md={12}  >
-      <Grid style={{textAlign: 'center',display: 'inline-block'}}>
+
+<Grid container  >
+<Grid item xs={1} md={1}  >
       <ArrowBackIcon sx={{ fontSize: 20 }} color="text.secondary" />
       </Grid>
-    <Grid  style={{display: 'inline-block',paddingLeft:'1%'}}>  
+      <Grid item xs={11} md={11}  >
       <Typography color="text.secondary"  variant="h6" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
 <Link href="/" >Back to home </Link>
 </Typography>
+</Grid>
 </Grid>
 </Grid>
 
@@ -68,9 +71,9 @@ return(
 })}
 </Grid>
 
-<Grid container sx={{padding:'2%'}} >
+<Grid container  >
 
-  
+<Grid item  sx={{padding:'8%'}}>
 <SimpleImageSlider
         width={800}
         height={800}
@@ -79,7 +82,7 @@ return(
         showNavs={true}
         
       />
-  
+  </Grid>
 </Grid>
 
 </Grid>
