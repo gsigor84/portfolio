@@ -71,9 +71,9 @@ return(
 })}
 </Grid>
 
-<Grid container  >
 
-<Grid item  sx={{padding:'8%'}}>
+
+<Grid item   style={{paddingRight:'5%' }}>
 <SimpleImageSlider
         width={800}
         height={800}
@@ -83,7 +83,7 @@ return(
         
       />
   </Grid>
-</Grid>
+
 
 </Grid>
 
