@@ -51,9 +51,9 @@ What is {title}
 <Typography  variant="body2" color="text.secondary" >
 
 {description}
-
+<Grid item xs={12} md={12} sx={{paddingTop:'2%'}}  >
 <a href={link} style={{textDecoration: 'underline'}}>{link}</a>
-
+</Grid>
 </Typography>
 </Grid>
 <Grid container sx={{padding:'2%'}} >
@@ -62,7 +62,7 @@ What is {title}
 
 return(
    
-<Grid item xs={2} md={1} sx={{padding:'2%'}} key={index} >
+<Grid item xs={2} md={1} sx={{padding:'2%',margin:'3%'}} key={index} >
            <Image src={icon.image} alt='custmon' width={50} height={50}/>
            </Grid>
 

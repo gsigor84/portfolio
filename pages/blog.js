@@ -17,7 +17,7 @@ const Blog = () => {
 </Grid>
    
       
-<Grid  container  spacing={2} style={{marginLeft:'2%'}} >
+<Grid  container  spacing={2} style={{marginLeft:'4%'}} >
       <ImageListItem key="Subheader" cols={4}>
       </ImageListItem>
       {itemData.map((item,index) => (
