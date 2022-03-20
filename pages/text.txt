@@ -1,0 +1,28 @@
+<Grid container >
+
+<Grid item xs={12} md={6}  > 
+<Typography variant="h5" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
+  Welcome to my Portfolio 
+</Typography>
+<Grid item xs={12} md={6}  > 
+<Typography  variant="body2" color="text.secondary" >
+I’m Igor . I’m 37 years old. I’m a Web Developer who prioritize simplicity and usability.  
+Proficient with the ability to multi-task and use multiple systems at any time.
+Excellent problem solve & provide the best possible solution for the customer.
+Strong ability to work as part of a team.
+</Typography>
+
+
+<Typography variant="h7" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600',textDecoration: 'underline',paddingTop:'2%' }} >
+<Link href="/contact" >
+More information
+</Link>
+</Typography></Grid>
+</Grid>
+
+<Grid item xs={12} md={6}  > 
+
+ <div style={{width:400,height:400}} ref={container}> </div>
+ </Grid>
+
+

@@ -9,61 +9,70 @@ function Know () {
 
         <Box sx={{ flexGrow: 1 }} >
 
-<Grid container  spacing={4} style={{paddingTop:'3%'}}>
+<Grid container 
+ direction="row"
+ justifyContent="center"
+ alignItems="flex-start"
+ spacing={2}
+ className='knowBox'
+style={{
+  padding:'10%',backgroundColor:'black',
   
-  <Grid item xs={12}  md={3} >
-  <Typography gutterBottom variant="h6" component="div" color="text.secondary">
+  }}>
+  
+  <Grid item xs={12}  md={4}  sx={{height: '20vh'}}>
+  <p className='biosub'>
           Languages & Frame Works
-        </Typography>
-        <Typography gutterBottom variant="h7" component="div" color="text.secondary">
+        </p>
+        <p className='bio'>
           HTML, CSS
-    </Typography>
-  <Typography gutterBottom variant="h7" component="div" color="text.secondary">
+    </p>
+    <p className='bio'>
           React Js
-    </Typography>
-    <Typography gutterBottom variant="h7" component="div" color="text.secondary">
+          </p>
+    <p className='bio'>
           React Native
-    </Typography>
-    <Typography gutterBottom variant="h7" component="div" color="text.secondary">
+          </p>
+    <p className='bio'>
          Next Js
-    </Typography>
+         </p>
 
 
-    <Typography gutterBottom variant="h7" component="div" color="text.secondary">
+    <p className='bio'>
           Python
-    </Typography>
+          </p>
 
 </Grid>
   
-  <Grid item xs={12}  md={3} >
-  <Typography gutterBottom variant="h6" component="div" color="text.secondary">
+  <Grid item xs={12}  md={4} sx={{height: '20vh'}}>
+  <p className='biosub'>
           Basic Knowledge
-        </Typography>
+        </p>
 
-        <Typography gutterBottom variant="h7" component="div" color="text.secondary">
+        <p className='bio'>
          NodeJS
-    </Typography>
-    <Typography gutterBottom variant="h7" component="div" color="text.secondary">
+         </p>
+    <p className='bio'>
     PostgreSQL 
-    </Typography>
-    <Typography gutterBottom variant="h7" component="div" color="text.secondary">
+    </p>
+    <p className='bio'>
     Strapi
-    </Typography>
+    </p>
   
   </Grid>
-  <Grid item xs={12}  md={3}  >
-  <Typography gutterBottom variant="h6" component="div" color="text.secondary">
+  <Grid item xs={12}  md={4} sx={{height: '20vh'}}  >
+  <p className='biosub'>
   Graphic Design
-        </Typography>
-        <Typography gutterBottom variant="h7" component="div" color="text.secondary">
+        </p>
+        <p className='bio'>
    PhotoShop
-    </Typography>
-    <Typography gutterBottom variant="h7" component="div" color="text.secondary">
+   </p>
+    <p className='bio'>
    Illustrator
-    </Typography>
-    <Typography gutterBottom variant="h7" component="div" color="text.secondary">
+   </p>
+    <p className='bio'>
    Adobe XD
-    </Typography>
+   </p>
 
   </Grid>
 

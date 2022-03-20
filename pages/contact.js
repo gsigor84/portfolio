@@ -56,8 +56,8 @@ const Contact = () => {
                 
             I grew up in Sao Paulo.
 After I got my hands wet with python I soon discovered my passion for programming while doing web scrapping. 
-Now I live in England working full time freelance as a Web Developer. In my spare time I like to go to the gym and reading. 
-I enjoy building interactive, social media applications with an eye on animated content.
+Now I live in England working full time freelance as aWeb Developer. In my spare time I like to go to the gym and reading.
+I enjoy building interactive, social mediaapplications with an eye on animated content.
 If you fancy a chat feel free to contact me:
                 </Typography>
 </Box>

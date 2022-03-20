@@ -1,5 +1,5 @@
-
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 html,
 body {
   padding: 0;
@@ -8,9 +8,106 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+  .box {
+    background:red;
+    position:absolute;
+    top:0px;
+    right:0px;
+    bottom:0px;
+    left:0px;
+  }
+
+.backwork{
+  background-image: url("/gxnglogo.png");
+  width: 27vw;
+  height: 800px;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  filter: brightness(50%);
+  display: flex;
+  justify-content: center;
+  transition-delay: 0.5;
+}
+.backwork:hover{
+  filter: brightness(100%);
+  
+}
+.square{
+  width: 100%;
+  height: 0%;
+  align-self: flex-end;
+  background-color:black;
+  filter: opacity(20%);
+  transition:height 1s, filter 1s;
+  text-align: center;
+  padding: 6%;
+}
+
+.backwork:hover .square{
+ display: block;
+ color:white;
+ text-align: center;
+ height: 50%;
+ filter: opacity(90%);
+}
+
+.worktext{
+  font-family: 'Lato', sans-serif;
+  color:white;
+  
+}
+
+
+.curve{
+position: absolute;
+height: 225px;
+width: 100%;
+}
+.curve::before{
+content:'';
+display:block;
+position:absolute;
+border-radius: 100% 80%;
+width: 45%;
+height: 100%;
+background-color: #022873;
+transform: translate(-15%,-80%);
+z-index: -1;
+
+}
+
 a {
   color: inherit;
   text-decoration: none;
+}
+.subTitle1{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: white;
+}
+.p1{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  color: white;
+}
+
+.svg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.svg2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: opacity(90%) ;
+  border-radius: 10px;
+  background-Color:#022873;
+  height:20vw;
+  width:50vw;
+
 }
 
 .slider{
@@ -60,4 +157,68 @@ a {
 .arrowStyle {
   border : "solid red";
   border-width : "0 5px 5px 0"
+}
+.biosub{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 20px;
+  vertical-align: text-top;
+}
+.bio{
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  color: white;
+  font-size: 12px;
+  vertical-align: text-top;
+}
+.bioBox {
+  width: 80vw
+}
+.wokbox{
+  width: 80vw
+}
+.formBox{
+  width: 80vw
+}
+.knowBox{
+  width: 80vw;
+  padding:10%;
+  background-Color:#D9043D;
+}
+@media only screen and (max-width: 600px) {
+  .bioBox {
+    width: 100vw
+  }
+  .wokbox{
+    width: 100vw
+  }.formBox{
+    width: 100vw
+  }.knowBox{
+    width: 100vw;
+    height: 200vw;
+  }
+  .backwork{
+   
+    width: 100vw;
+    height: 800px;
+    filter: opacity(100%);
+  }
+  .square{
+    width: 100%;
+    height: 50%;
+    filter: brightness(100%);
+   
+  }
+  .svg2{
+    display: none;
+  }
+  .backwork{
+    background-image: url("/gxnglogo.png");
+    height: 500px;
+  }
+  .square{
+    height: 300px;
+    filter: opacity(90%);
+  }
 }

@@ -3,8 +3,7 @@ import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import TextField from '@mui/material/TextField';
 import emailjs from '@emailjs/browser';
-
-
+import { Button } from 'semantic-ui-react'
 
 
 export default function Form() {
@@ -25,20 +24,26 @@ export default function Form() {
     return(
 
         <Box sx={{ flexGrow: 1 }} >
-            <Grid container spacing={2} style={{paddingTop:'3%'}}>
+            <Grid container 
+             direction="column"
+             justifyContent="center"
+             alignItems="center"
+            spacing={2} 
+            className='formBox'
+            >
  
-  <Grid item xs={12} style={{backgroundColor:'#F9F9F9', paddingBottom:'2%'}} >
+  <Grid item xs={12} style={{paddingBottom:'2%',borderRadius: 10}} >
   <form onSubmit={sendEmail}>
-  <Typography variant="h5" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}}  >
-Looking for help with Web Development
+  <Typography variant="h4" component="div" className='subTitle1' style={{color:'#D9043D'}}>
+Looking for help with Web Development?
 </Typography>
 
-<Typography variant="h7" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '400'}} color="text.secondary">
+<p variant="h7" component="div" className='p1' style={{color:'#D9043D'}} >
 Send me details
-</Typography>
+</p>
 
 
-<Box style={{ paddingRight:'2%',paddingTop:'2%',}} >
+<Box style={{paddingTop:'2%',}} >
   
 <TextField
 fullWidth 
@@ -46,11 +51,12 @@ fullWidth
         label="Name"
         size="small"
         name="name" 
+        
       />
 </Box>
 
 
-<Box style={{ paddingRight:'2%',paddingTop:'2%',}} >
+<Box style={{ paddingTop:'2%',}} >
 <TextField
 fullWidth 
         id="outlined-name"
@@ -62,7 +68,7 @@ fullWidth
       
 </Box>
 
-<Box style={{ paddingRight:'2%',paddingTop:'2%',}} >
+<Box style={{paddingTop:'2%',}} >
 <TextField
 fullWidth 
           id="standard-multiline-static"
@@ -75,12 +81,11 @@ fullWidth
       
 </Box>
 
-<Box style={{ paddingRight:'2%',paddingTop:'2%',}} >
+<Box style={{paddingTop:'2%',}} >
 
-<Typography  variant="h7" gutterBottom component="div" sx={{ textDecoration: 'underline',textAlign: 'right' }}  >
-
-<input type="submit" value="Submit" style={{textDecoration: 'underline',textAlign: 'right' }} />
-</Typography>
+<Button value="Submit"  style={{backgroundColor:'#D9043D',borderRadius: 5,color:'#F2F2F2',marginBlock:'2%'}}>
+Submit
+</Button>
 
 </Box>
 </form>
