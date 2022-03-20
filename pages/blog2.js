@@ -4,25 +4,9 @@ import Grid from '@mui/material/Grid';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import Image from 'next/image'
-import lottie from 'lottie-web';
-import React,{useEffect, useRef} from 'react'
-
 
 const blog2 = () => {
-    const container = useRef(null)
-    useEffect(()=>{
 
-        lottie.loadAnimation({
-          container:container.current,
-          render:'svg',
-          loop:true,
-          autoplay:true,
-          animationData: require('../public/json/blog4.json'),
-    
-    
-        })
-    
-      },[])
 
   return (
     <Box sx={{ flexGrow: 1 }}>
