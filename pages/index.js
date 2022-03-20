@@ -16,7 +16,6 @@ export default function Home() {
 
 
 <Grid container 
- container
  direction="column"
  justifyContent="center"
  alignItems="center"
