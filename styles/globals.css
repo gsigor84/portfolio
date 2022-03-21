@@ -195,7 +195,7 @@ a {
 @media only screen and (max-width: 600px) {
 
   .layoutBox{
-   
+    overflow-x: hidden;
      margin: auto;
      clear:both;
      background-color: violet;
