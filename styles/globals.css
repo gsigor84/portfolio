@@ -164,7 +164,7 @@ a {
 }
 .textBox{
   padding-Top:'2%';
-  width: 900;
+  width: 900px;
 }
 @media only screen and (max-width: 600px) {
 .card{
@@ -212,9 +212,9 @@ a {
     z-index: 1;
     position: relative;
    left:7%;
-
-   
-   
+  }.textBox{
+    padding-Top:'2%';
+    width: 500px;
   }
   .svg2{
     position: relative;
