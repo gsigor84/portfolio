@@ -195,19 +195,19 @@ a {
 }
   
   .bioBox {
-    width: 100vw
+    width: 95vw;
   }
   .wokbox{
-    width: 100vw
+    width: 95vw;
   }.formBox{
-    width: 100vw
+    width: 95vw;
   }.knowBox{
-    width: 100vw;
+    width: 95vw;
     height: 100vh;
   }
   .backwork{
    
-    width: 100vw;
+    width: 95vw;
     height: 800px;
     filter: opacity(100%);
   }
