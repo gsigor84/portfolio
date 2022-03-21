@@ -43,7 +43,7 @@ Send me details
 </p>
 
 
-<Box   style={{paddingTop:'2%',   width: 900}} >
+<Box   className='textBox' >
   
 <TextField
 fullWidth 
@@ -56,7 +56,7 @@ fullWidth
 </Box>
 
 
-<Box style={{ paddingTop:'2%',}} >
+<Box className='textBox' >
 <TextField
 fullWidth 
         id="outlined-name"
@@ -68,7 +68,7 @@ fullWidth
       
 </Box>
 
-<Box style={{paddingTop:'2%',}} >
+<Box className='textBox' >
 <TextField
 fullWidth 
           id="standard-multiline-static"

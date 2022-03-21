@@ -183,6 +183,10 @@ a {
   padding:10%;
  
 }
+.textBox{
+  padding-Top:'2%';
+  width: 900;
+}
 @media only screen and (max-width: 600px) {
   .fullscreen {
     height: 100vh;
@@ -223,5 +227,9 @@ a {
   .square{
     height: 300px;
     filter: opacity(90%);
+  }
+  .textBox{
+    padding-Top:'2%';
+    width: 320px;
   }
 }
