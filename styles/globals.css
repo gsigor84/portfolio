@@ -173,7 +173,7 @@ a {
 .bioBox {
   width: 80vw
 }
-.wokbox{
+.workBox{
   width: 80vw
 }
 .blogBox{
@@ -205,11 +205,8 @@ a {
 
   }
   .workBox{
+    width: 90vw;
    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-self: center;
   }
   .workIn{ 
     width:100vw;

@@ -3,44 +3,51 @@ import Box from '@mui/material/Box';
 import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import Link from 'next/link'
+import Card from '@mui/material/Card';
+import CardActions from '@mui/material/CardActions';
+import CardContent from '@mui/material/CardContent';
+import CardMedia from '@mui/material/CardMedia';
 
 
 export default function Works() {
 
     return(
-
-<Box sx={{ flexGrow: 1 }}>
-<Grid
-container
-direction="row"
-justifyContent="center"
-alignItems="center"
-className='workBox'
-spacing={4}
->
-  
-
-{itemData.map((item,index) => (
-<Grid item xs={12} md={4}  key={index} className='workIn' >
-<Link href={item.link}>
-<a>
-
-<div className='backwork' style={{backgroundImage: `url('${item.image}') `}}>
-<div className='square'>
-     
-</div>
-</div>
-  </a>
-</Link>
-
-  </Grid>
-))}
-
- 
+      <Box sx={{ flexGrow: 1 }}>
+      <Grid container 
+        direction="row"
+        justifyContent="space-around"
+        alignItems="center"
+      spacing={2}
+      className='workBox'
+    
+      >    
+        {itemData.map((item,index) => (
+          <Grid item xs={12} md={3} key={index}>
+         <Card sx={{ maxWidth: 345}}>
+      <CardMedia
+        component="img"
+        height="140"
+        image={item.image}
+        alt="green iguana"
+       
+      />
+      <CardContent>
+        <Typography gutterBottom variant="h5" component="div">
+         {item.title}
+        </Typography>
+        <Typography variant="body2" color="text.secondary">
+         {item.description}
+        </Typography>
+      </CardContent>
+      <CardActions>
+      </CardActions>
+</Card>
 </Grid>
 
+))}
 
-</Box>
+</Grid>
+    </Box> 
 
     )
 }

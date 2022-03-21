@@ -1,17 +1,32 @@
+<Box sx={{ flexGrow: 1 }}>
+<Grid
+container
+direction="row"
+justifyContent="center"
+alignItems="center"
+className='workBox'
+spacing={4}
+>
+  
+
+{itemData.map((item,index) => (
+<Grid item xs={12} md={4}  key={index} className='workIn' >
 <Link href={item.link}>
-    <a>
-   <div className='backwork' style={{backgroundImage: `url('${item.image}') `}}>
-    <div className='square'> 
-   <Typography variant="h4" className='worktext' sx={{paddingBlock:'4%'}}>
-         {item.title}
-        </Typography>
-        <Typography variant="h6" className='worktext' >
-         {item.description}
-        </Typography>
-        
-        
-        </div>    
-   </div>
-</a>
-   </Link>
-   
+<a>
+
+<div className='backwork' style={{backgroundImage: `url('${item.image}') `}}>
+<div className='square'>
+     
+</div>
+</div>
+  </a>
+</Link>
+
+  </Grid>
+))}
+
+ 
+</Grid>
+
+
+</Box>
