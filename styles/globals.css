@@ -221,10 +221,10 @@ a {
     height: 100vh;
   }
   .backwork{
-   
-    width: 80vw;
-    height: 800px;
-    filter: opacity(100%);
+    width:95vw;
+    display: flex;
+    justify-Content: center;
+     align-Items: center;
   }
   .square{
     width: 100%;
