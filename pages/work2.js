@@ -9,14 +9,16 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 
 
+
 export default function Works() {
+
 
     return(
       <Box sx={{ flexGrow: 1 }}>
       <Grid container 
         direction="row"
         justifyContent="space-around"
-        alignItems="center"
+        alignItems="flex-start"
       spacing={2}
       className='workBox'
     
@@ -35,7 +37,7 @@ export default function Works() {
         <p  className='subTitle1' style={{color:'black',fontSize:'20px',alignSelf:'center'}}>
          {item.title}
         </p>
-        <p  className='p1' style={{color:'black',fontSize:'14px'}}>
+        <p  className='p1' style={{color:'black',fontSize:'16px'}}>
          {item.description}
         </p>
       </CardContent>

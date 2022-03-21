@@ -4,27 +4,50 @@ import Grid from '@mui/material/Grid';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import Image from 'next/image'
+import lottie from 'lottie-web';
+import React,{useEffect, useRef} from 'react'
+import Svg from './svg'
 
 const blog2 = () => {
 
 
+  const container = useRef(null)
+
+  useEffect(()=>{
+
+    lottie.loadAnimation({
+      container:container.current,
+      render:'svg',
+      loop:true,
+      autoplay:true,
+      animationData: require('../public/json/mancha.json'),
+    })
+
+  },[])
+
+
   return (
+ 
     <Box sx={{ flexGrow: 1 }}>
   <Grid container 
   direction="row"
   justifyContent="center"
-  alignItems="center"
+  alignItems="flex-end"
   className='blogBox'
+  sx={{position:'relative'}}
   >
-        <Grid item xs={12} md={6} className='svg2'  >
-     
+        <Grid item xs={12} md={2}>
+    <div className='svg2' >
         <span className='subTitle1' style={{color:'white',fontSize:'80px'}}>
 Blog.
 </span>
+</div>
+<Svg/>
+</Grid>
 
-        </Grid>
 
-        <Grid item xs={12} md={6} >
+
+        <Grid item xs={12} md={7} >
 
 <Grid 
  container

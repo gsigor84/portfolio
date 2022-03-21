@@ -14,48 +14,8 @@ body {
 }
 .fullscreen {
 
-  width: 80vw;
+  width: 100vw;
 }
-.backwork{
-  width: 27vw;
-  height: 27vh;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover; /* Resize the background image to cover the entire container */
-  filter: brightness(50%);
-  display: flex;
-  justify-content: center;
-  transition-delay: 0.5;
-}
-.backwork:hover{
-  filter: brightness(100%);
-  
-}
-.square{
-  width: 80vw;
-  height: 0%;
-  align-self: flex-end;
-  background-color:black;
-  filter: opacity(0%);
-  transition:height 1s, filter 0s;
-  text-align: center;
-  padding: 6%;
-}
-
-.backwork:hover .square{
- display: block;
- color:white;
- text-align: center;
- height: 50%;
- filter: opacity(90%);
-}
-
-.worktext{
-  font-family: 'Lato', sans-serif;
-  color:white;
-  padding: 6%;
-}
-
 
 .curve{
 position: absolute;
@@ -102,10 +62,24 @@ a {
   align-items: center;
   filter: opacity(90%) ;
   border-radius: 10px;
-  background-Color:#022873;
-  height:20vw;
-  width:50vw;
-
+  top:180px;
+  z-index: 2;
+  position: relative;
+}
+.svg3{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: opacity(90%) ;
+  border-radius: 10px;
+  height:40vh;
+  width:20vw;
+  z-index: 1;
+  position: relative;
+ left:-15%;
+ top:-20%;
+ 
+ 
 }
 
 .slider{
@@ -171,19 +145,20 @@ a {
   vertical-align: text-top;
 }
 .bioBox {
-  width: 80vw
+  width: 100vw;
+  background-color: '#D9043D';
 }
 .workBox{
-  width: 80vw
+  width: 100vw
 }
 .blogBox{
-  width: 80vw
+  width: 100vw
 }
 .formBox{
-  width: 80vw
+  width: 100vw
 }
 .knowBox{
-  width: 80vw;
+  width: 100vw;
   padding:10%;
  
 }
@@ -225,23 +200,10 @@ a {
      margin-inline: 4%;
   }
   .knowBox{
-    width: 90vw;
-  
-  }
-  .backwork{
-    height: 900vh;
-  
-    filter: opacity(100%);
-    align-self: center;
-  }
-  .square{
     width: 100vw;
-    padding: 5px 0 5px 30px;
-    overflow: hidden;
-    height: 50%;
-    filter: brightness(100%);
- 
+  height: 100vh;
   }
+
   .svg2{
     display: none;
   }
@@ -249,13 +211,5 @@ a {
     height: 500px;
     width: 90%;
   }
-  .square{
-    height: 280px;
-    filter: opacity(90%);
-    padding: 0;
-  }
-  .textBox{
-    padding-Top:'2%';
-    width: 300px;
-  }
+
 }

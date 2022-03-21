@@ -22,7 +22,7 @@ export default function Home() {
 className="fullscreen"
 >
 
-<Grid item xs={12} md={12} sx={{marginTop:'14%'}}  >
+<Grid item xs={12} md={12}  >
 <Bio/>
 </Grid>
 
@@ -30,13 +30,13 @@ className="fullscreen"
 <Work2/>
 </Grid>
 
- <Grid item xs={12} md={12}  sx={{marginTop:'14%'}}  >      
+ <Grid item xs={12} md={12}  sx={{marginTop:'10%'}}  >      
 <Blog/>
 </Grid>
 
 
 
-<Grid item xs={12} md={12} sx={{marginTop:'14%'}}  >
+<Grid item xs={12} md={12} sx={{marginTop:'10%'}}  >
 <Form/>
 </Grid>
 <Grid item xs={12} md={12} sx={{marginTop:'10%'}}   >

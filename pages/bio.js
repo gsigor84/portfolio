@@ -21,13 +21,13 @@ const container = useRef(null)
       render:'svg',
       loop:true,
       autoplay:true,
-      animationData: require('../public/json/design1.json'),
+      animationData: require('../public/json/blog4.json'),
     })
 
   },[])
 
 return(
-  <Box sx={{ flexGrow: 1 }}>
+  <Box sx={{ flexGrow: 1,backgroundColor:'#D9043D' }}>
  <Grid container 
    direction="row"
    justifyContent="space-between"
