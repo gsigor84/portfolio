@@ -206,10 +206,7 @@ a {
 
   }
   .workBox{
-    width:95vw;
-    display: flex;
-    justify-Content: center;
-     align-Items: center;
+    width: 90vw;
     
   }
   
@@ -220,15 +217,14 @@ a {
      align-Items: center;
      margin-inline: 4%;
   }.knowBox{
-    width:95vw;
-    display: flex;
-    justify-Content: center;
-     align-Items: center;
+    width: 90vw;
     height: 100vh;
   }
   .backwork{
-    width:95vw;
-
+   
+    width: 80vw;
+    height: 800px;
+    filter: opacity(100%);
   }
   .square{
     width: 100%;
