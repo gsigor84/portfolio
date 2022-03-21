@@ -49,7 +49,7 @@ Strong ability to work as part of a team.
 
 
 
-<Link href="/contact" >
+<Link href="/contact"  passHref >
 <Button  style={{backgroundColor:'#F2F2F2',borderRadius: 5,color:'#D90452',marginBlock:'2%'}}>More information</Button>
 </Link>
 </div>

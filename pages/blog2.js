@@ -1,12 +1,10 @@
 import Box from '@mui/material/Box';
-import Typography from '@mui/material/Typography';
 import Grid from '@mui/material/Grid';
 import ImageListItem from '@mui/material/ImageListItem';
 import ImageListItemBar from '@mui/material/ImageListItemBar';
 import Image from 'next/image'
 import lottie from 'lottie-web';
 import React,{useEffect, useRef} from 'react'
-import Svg from './svg'
 
 const blog2 = () => {
 
@@ -42,7 +40,7 @@ const blog2 = () => {
 Blog.
 </span>
 </div>
-<Svg/>
+<div className='svg3' ref={container}  />
 </Grid>
 
 
