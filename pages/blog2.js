@@ -36,7 +36,7 @@ const Blog2 = () => {
   >
         <Grid item xs={12} md={2}>
     <div className='svg2' >
-        <span className='subTitle1' style={{color:'white',fontSize:'80px'}}>
+        <span className='subTitle1' style={{fontSize:'80px'}}>
 Blog.
 </span>
 </div>

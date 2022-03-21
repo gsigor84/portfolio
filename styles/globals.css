@@ -193,7 +193,7 @@ a {
   }
   
   .formBox{
-    width:95vw;
+    width:90vw;
     display: flex;
     justify-Content: center;
      align-Items: center;
@@ -203,9 +203,21 @@ a {
     width: 100vw;
   height: 100vh;
   }
+  .svg3{
 
+    filter: opacity(90%) ;
+    border-radius: 10px;
+    height:50vh;
+    width:90vw;
+    z-index: 1;
+    position: relative;
+   left:7%;
+
+   
+   
+  }
   .svg2{
-    display: none;
+    position: relative;
   }
   .backwork{
     height: 500px;
