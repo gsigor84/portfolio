@@ -234,11 +234,12 @@ a {
   .backwork{
     background-image: url("/gxnglogo.png");
     height: 500px;
+    width: 100%;
   }
   .square{
-    height: 250px;
+    height: 280px;
     filter: opacity(90%);
-    padding: 2%;
+    padding: 0;
   }
   .textBox{
     padding-Top:'2%';
