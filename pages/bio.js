@@ -55,7 +55,7 @@ Strong ability to work as part of a team.
 </Link>
 </div>
         </Grid>
-        <Grid item xs={12} md={6}>
+        <Grid item xs={12} md={5}>
         <div style={{width:400,height:400}} className='svg1' ref={container}> </div>
         </Grid>
       
