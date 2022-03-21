@@ -23,7 +23,7 @@ export default function Works() {
       >    
         {itemData.map((item,index) => (
           
-         <Card sx={{ maxWidth: 345}}>
+         <Card sx={{ maxWidth: 345}} key={index}>
       <CardMedia
         component="img"
         height="140"
