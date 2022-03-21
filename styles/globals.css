@@ -198,12 +198,12 @@ a {
     display: flex;
     justify-Content: center;
      align-Items: center;
-     
+     overflow-x: hidden;
   }
   .fullscreen {
     height: 100vh;
     width: 95vw;
-    overflow-x: hidden;
+    
 }
   
   .bioBox {
