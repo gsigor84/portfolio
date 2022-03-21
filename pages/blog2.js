@@ -11,7 +11,10 @@ const blog2 = () => {
   return (
     <Box sx={{ flexGrow: 1 }}>
   <Grid container 
-  
+  direction="row"
+  justifyContent="center"
+  alignItems="center"
+  className='blogBox'
   >
         <Grid item xs={12} md={6} className='svg2'  >
      

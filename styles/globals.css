@@ -178,6 +178,9 @@ a {
 .wokbox{
   width: 80vw
 }
+.blogBox{
+  width: 80vw
+}
 .formBox{
   width: 80vw
 }
@@ -187,6 +190,13 @@ a {
   background-Color:#D9043D;
 }
 @media only screen and (max-width: 600px) {
+  .fullscreen {
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+
+}
+  
   .bioBox {
     width: 100vw
   }
@@ -196,7 +206,7 @@ a {
     width: 100vw
   }.knowBox{
     width: 100vw;
-    height: 200vw;
+    height: 100vh;
   }
   .backwork{
    

@@ -16,10 +16,12 @@ export default function Home() {
 
 
 <Grid container 
- direction="column"
+ direction="row"
  justifyContent="center"
  alignItems="center"
-sx={{marginTop:'14%'}}>
+sx={{marginTop:'14%'}}
+className="fullscreen"
+>
 
 <Grid item xs={12} md={12} >
 <Bio/>
