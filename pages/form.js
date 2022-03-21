@@ -30,6 +30,7 @@ export default function Form() {
              alignItems="center"
             spacing={2} 
             className='formBox'
+            sx={{margin:'2%'}}
             >
  
   <Grid item xs={12} style={{paddingBottom:'2%',borderRadius: 10}} >
