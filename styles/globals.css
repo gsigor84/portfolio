@@ -206,7 +206,10 @@ a {
 
   }
   .workBox{
-    width: 90vw;
+    width:95vw;
+    display: flex;
+    justify-Content: center;
+     align-Items: center;
     
   }
   
@@ -225,9 +228,7 @@ a {
   }
   .backwork{
     width:95vw;
-    display: flex;
-    justify-Content: center;
-     align-Items: center;
+
   }
   .square{
     width: 100%;
