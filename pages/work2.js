@@ -21,7 +21,7 @@ className='workBox'
 
 
 {itemData.map((item,index) => (
-<Grid item xs={12} md={4}  key={index} sx={{overflow: 'hidden'}}>
+<Grid item xs={12} md={4}  key={index} className='workIn'>
 <Link href={item.link}>
     <a>
    <div className='backwork' style={{backgroundImage: `url('${item.image}') `}}>

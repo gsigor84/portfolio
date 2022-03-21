@@ -36,8 +36,8 @@ body {
   height: 0%;
   align-self: flex-end;
   background-color:black;
-  filter: opacity(20%);
-  transition:height 1s, filter 1s;
+  filter: opacity(0%);
+  transition:height 1s, filter 0s;
   text-align: center;
   padding: 6%;
 }
@@ -212,6 +212,11 @@ a {
     align-items: center;
     align-self: center;
   }
+  .workIn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   
   .formBox{
     width:95vw;
@@ -219,7 +224,8 @@ a {
     justify-Content: center;
      align-Items: center;
      margin-inline: 4%;
-  }.knowBox{
+  }
+  .knowBox{
     width: 90vw;
     height: 100vh;
   }
