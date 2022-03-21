@@ -35,7 +35,7 @@ return(
  
    className='bioBox'
  >
-        <Grid item xs={12} md={6} >
+        <Grid item xs={12} md={6} sx={{margin:'2%'}}>
           <div style={{backgroundColor:'#D9043D',padding:'6%',borderRadius: 10}}>
         <Typography variant="h2" component="div" className='subTitle1' >
   Welcome to my Portfolio 

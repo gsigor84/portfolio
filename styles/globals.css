@@ -200,12 +200,12 @@ a {
      clear:both;
      background-color: violet;
   
-    
+     overflow-y: hidden;
   }
   
   .bioBox {
-    width:80vw;
-    margin: 4%;
+    width:100vw;
+
   }
   .wokbox{
     width: 100vw;
