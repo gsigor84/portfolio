@@ -217,12 +217,12 @@ a {
     justify-Content: center;
      align-Items: center;
   }.knowBox{
-    width: 95vw;
+    width: 100vw;
     height: 100vh;
   }
   .backwork{
    
-    width: 95vw;
+    width: 100vw;
     height: 800px;
     filter: opacity(100%);
   }
