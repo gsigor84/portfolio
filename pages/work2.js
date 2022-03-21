@@ -22,7 +22,7 @@ export default function Works() {
     
       >    
         {itemData.map((item,index) => (
-          <Grid item xs={12} md={3} key={index}>
+          
          <Card sx={{ maxWidth: 345}}>
       <CardMedia
         component="img"
@@ -42,7 +42,7 @@ export default function Works() {
       <CardActions>
       </CardActions>
 </Card>
-</Grid>
+
 
 ))}
 
