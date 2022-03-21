@@ -217,7 +217,10 @@ a {
      align-Items: center;
      margin-inline: 4%;
   }.knowBox{
-    width: 90vw;
+    width:95vw;
+    display: flex;
+    justify-Content: center;
+     align-Items: center;
     height: 100vh;
   }
   .backwork{
