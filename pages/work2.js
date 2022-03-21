@@ -18,8 +18,10 @@ alignItems="center"
 className='workBox'
 >
   
+
+
 {itemData.map((item,index) => (
-<Grid item xs={12} md={4}  key={index} sx={{margin:'2%'}} >
+<Grid item xs={12} md={4}  key={index} sx={{overflow: 'hidden'}}>
 <Link href={item.link}>
     <a>
    <div className='backwork' style={{backgroundImage: `url('${item.image}') `}}>
