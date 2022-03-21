@@ -27,12 +27,7 @@ className='workBox'
 
 <div className='backwork' style={{backgroundImage: `url('${item.image}') `}}>
 <div className='square'>
-<Typography variant="h4" className='worktext' sx={{paddingBlock:'4%'}}> 
-{item.title}
-</Typography>
-<Typography variant="h6" className='worktext' >
-
-        </Typography>
+...................................................................................................................
         
 </div>
 </div>
