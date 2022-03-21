@@ -236,9 +236,8 @@ a {
     display: none;
   }
   .backwork{
-    background-image: url("/gxnglogo.png");
     height: 500px;
-    width: 100%;
+    width: 90%;
   }
   .square{
     height: 280px;
