@@ -16,7 +16,7 @@ function Know () {
  spacing={2}
  className='knowBox'
 style={{
-  padding:'10%',backgroundColor:'black',
+  padding:'10%',backgroundColor:'#022873',
   
   }}>
   

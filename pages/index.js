@@ -19,11 +19,10 @@ export default function Home() {
  direction="row"
  justifyContent="center"
  alignItems="center"
-sx={{marginTop:'14%'}}
 className="fullscreen"
 >
 
-<Grid item xs={12} md={12} >
+<Grid item xs={12} md={12} sx={{marginTop:'14%'}}  >
 <Bio/>
 </Grid>
 

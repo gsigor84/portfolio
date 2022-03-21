@@ -34,16 +34,16 @@ export default function Form() {
  
   <Grid item xs={12} style={{paddingBottom:'2%',borderRadius: 10}} >
   <form onSubmit={sendEmail}>
-  <Typography variant="h4" component="div" className='subTitle1' style={{color:'#D9043D'}}>
+  <Typography variant="h4" component="div" className='subTitle1' style={{color:'#022873'}}>
 Looking for help with Web Development?
 </Typography>
 
-<p variant="h7" component="div" className='p1' style={{color:'#D9043D'}} >
+<p variant="h7" component="div" className='p1' style={{color:'#022873'}} >
 Send me details
 </p>
 
 
-<Box style={{paddingTop:'2%',}} >
+<Box   style={{paddingTop:'2%',   width: 900}} >
   
 <TextField
 fullWidth 
@@ -83,7 +83,7 @@ fullWidth
 
 <Box style={{paddingTop:'2%',}} >
 
-<Button value="Submit"  style={{backgroundColor:'#D9043D',borderRadius: 5,color:'#F2F2F2',marginBlock:'2%'}}>
+<Button value="Submit"  style={{backgroundColor:'#022873',borderRadius: 5,color:'#F2F2F2',marginBlock:'2%'}}>
 Submit
 </Button>
 
