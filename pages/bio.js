@@ -30,7 +30,7 @@ return(
   <Box sx={{ flexGrow: 1 }}>
  <Grid container 
    direction="row"
-   justifyContent="center"
+   justifyContent="space-between"
    alignItems="center"
    className='bioBox'
  >

@@ -23,7 +23,7 @@ export default function Works() {
       >    
         {itemData.map((item,index) => (
           
-         <Card sx={{ maxWidth: 345}} key={index}>
+         <Card sx={{ maxWidth: 345,boxShadow: "none"}} key={index} className='card'>
       <CardMedia
         component="img"
         height="140"
@@ -32,12 +32,12 @@ export default function Works() {
        
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <p  className='subTitle1' style={{color:'black',fontSize:'20px',alignSelf:'center'}}>
          {item.title}
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
+        </p>
+        <p  className='p1' style={{color:'black',fontSize:'14px'}}>
          {item.description}
-        </Typography>
+        </p>
       </CardContent>
       <CardActions>
       </CardActions>

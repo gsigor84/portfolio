@@ -192,7 +192,9 @@ a {
   width: 900;
 }
 @media only screen and (max-width: 600px) {
-
+.card{
+  margin-block: 2%;
+}
   .layoutBox{
     overflow-x: hidden;
      margin: auto;
