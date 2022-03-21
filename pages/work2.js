@@ -23,22 +23,18 @@ className='workBox'
 {itemData.map((item,index) => (
 <Grid item xs={12} md={4}  key={index} className='workIn'>
 <Link href={item.link}>
-    <a>
-   <div className='backwork' style={{backgroundImage: `url('${item.image}') `}}>
-    <div className='square'> 
-   <Typography variant="h4" className='worktext' sx={{paddingBlock:'4%'}}>
-         {item.title}
-        </Typography>
-        <Typography variant="h6" className='worktext' sx={{padding:'8%'}}>
-         {item.description}
-        </Typography>
-        
-        
-        </div>    
-   </div>
-</a>
-   </Link>
-   
+<a>
+
+<div className='backwork' style={{backgroundImage: `url('${item.image}') `}}>
+<div className='square'>
+<Typography variant="h4" className='worktext' sx={{paddingBlock:'4%'}}> 
+p
+</Typography>
+
+</div>
+</div>
+  </a>
+</Link>
 
   </Grid>
 ))}
