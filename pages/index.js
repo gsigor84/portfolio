@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
 
-    <Box sx={{ flexGrow: 1 }}>
+  
 
 <Grid container 
  direction="row"
@@ -44,7 +44,7 @@ className="fullscreen"
 </Grid>
 </Grid>
 
-</Box>
+
 
 
   )

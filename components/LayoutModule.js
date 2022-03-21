@@ -8,7 +8,7 @@ export default function Layout({children}) {
 
     return (
     
-      <div className='layoutBox'>
+      <Box sx={{ flexGrow: 1}} className='layoutBox'>
         <Head>
  
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;600&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet"/>
@@ -17,7 +17,7 @@ export default function Layout({children}) {
     
     {children}
 
-       </div>
+       </Box>
 
     )
 
