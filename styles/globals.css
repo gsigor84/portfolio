@@ -206,9 +206,10 @@ a {
   }
   .workBox{
     width:100vw;
+    width: 100%;
     display: flex;
-    justify-Content: center;
-     align-Items: center;
+    flex-wrap: wrap;
+  
   }
   
   .formBox{
@@ -222,7 +223,8 @@ a {
     height: 100vh;
   }
   .backwork{
-    height: 800px;
+    height: 900vh;
+    width: 100wh;
     filter: opacity(100%);
   }
   .square{
