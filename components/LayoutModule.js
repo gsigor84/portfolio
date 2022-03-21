@@ -8,7 +8,7 @@ export default function Layout({children}) {
 
     return (
     
-      <Box sx={{ flexGrow: 1,display: 'flex',justifyContent: 'center', alignItems: 'center'}} className='layoutBox'>
+      <Box sx={{ flexGrow: 1}} className='layoutBox'>
         <Head>
  
         <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;600&family=Public+Sans:wght@400;600&display=swap" rel="stylesheet"/>
