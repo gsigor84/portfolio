@@ -16,12 +16,12 @@ direction="row"
 justifyContent="center"
 alignItems="center"
 className='workBox'
+spacing={4}
 >
   
 
-
 {itemData.map((item,index) => (
-<Grid item xs={12} md={4}  key={index} className='workIn'>
+<Grid item xs={12} md={4}  key={index} className='workIn' >
 <Link href={item.link}>
 <a>
 
