@@ -195,31 +195,25 @@ a {
 @media only screen and (max-width: 600px) {
 
   .layoutBox{
-    display: flex;
-    justify-Content: center;
-     align-Items: center;
      overflow-x: hidden;
+     margin: auto;
+     clear:both;
+     background-color: violet;
+     overflow-y: auto;
   }
-  .fullscreen {
-   
-    overflow-y: auto;
-    position: relative;
-    width: 100%;
-    
-}
   
   .bioBox {
-    width:95vw;
+    width:80vw;
   }
   .wokbox{
-    width: 95vw;
+    width: 100vw;
   }.formBox{
     width:95vw;
     display: flex;
     justify-Content: center;
      align-Items: center;
   }.knowBox{
-    width: 100vw;
+    width: 90vw;
     height: 100vh;
   }
   .backwork{
@@ -242,8 +236,9 @@ a {
     height: 500px;
   }
   .square{
-    height: 300px;
+    height: 250px;
     filter: opacity(90%);
+    padding: 2%;
   }
   .textBox{
     padding-Top:'2%';
