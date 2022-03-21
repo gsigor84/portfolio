@@ -205,11 +205,13 @@ a {
   
   .bioBox {
     width:80vw;
-    margin-inline: 4%;
+    margin: 4%;
   }
   .wokbox{
     width: 100vw;
-  }.formBox{
+  }
+  
+  .formBox{
     width:95vw;
     display: flex;
     justify-Content: center;
