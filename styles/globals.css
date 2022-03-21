@@ -198,6 +198,7 @@ a {
     display: flex;
     justify-Content: center;
      align-Items: center;
+     
   }
   .fullscreen {
     height: 100vh;
@@ -211,7 +212,10 @@ a {
   .wokbox{
     width: 100vw
   }.formBox{
-    width: 100vw
+    width:95vw;
+    display: flex;
+    justify-Content: center;
+     align-Items: center;
   }.knowBox{
     width: 100vw;
     height: 100vh;
