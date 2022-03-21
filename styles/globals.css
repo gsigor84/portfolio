@@ -226,6 +226,7 @@ a {
     height: 900vh;
     width: 100wh;
     filter: opacity(100%);
+    margin-left:'2%';
   }
   .square{
     width: 100%;
