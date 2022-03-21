@@ -32,7 +32,6 @@ return(
    direction="row"
    justifyContent="center"
    alignItems="center"
- 
    className='bioBox'
  >
         <Grid item xs={12} md={6} sx={{margin:'2%'}}>

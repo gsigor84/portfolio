@@ -222,12 +222,7 @@ a {
     width: 90vw;
     height: 100vh;
   }
-  .backwork{
-   
-    width: 100vw;
-    height: 800px;
-    filter: opacity(100%);
-  }
+  
   .square{
     width: 100%;
     height: 50%;
