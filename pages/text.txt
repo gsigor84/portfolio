@@ -5,7 +5,7 @@
    <Typography variant="h4" className='worktext' sx={{paddingBlock:'4%'}}>
          {item.title}
         </Typography>
-        <Typography variant="h6" className='worktext' sx={{padding:'8%'}}>
+        <Typography variant="h6" className='worktext' >
          {item.description}
         </Typography>
         

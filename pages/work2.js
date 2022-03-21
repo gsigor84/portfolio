@@ -27,8 +27,7 @@ className='workBox'
 
 <div className='backwork' style={{backgroundImage: `url('${item.image}') `}}>
 <div className='square'>
-...................................................................................................................
-        
+     
 </div>
 </div>
   </a>

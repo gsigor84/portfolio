@@ -32,7 +32,7 @@ body {
   
 }
 .square{
-  width: 100%;
+  width: 80vw;
   height: 0%;
   align-self: flex-end;
   background-color:black;
@@ -227,19 +227,21 @@ a {
   }
   .knowBox{
     width: 90vw;
-    height: 100vh;
+  
   }
   .backwork{
     height: 900vh;
-    width: 100wh;
+  
     filter: opacity(100%);
     align-self: center;
   }
   .square{
-    width: 100wh;
+    width: 90vw;
+    padding: 5px 0 5px 30px;
+    overflow: hidden;
     height: 50%;
     filter: brightness(100%);
-   
+ 
   }
   .svg2{
     display: none;
