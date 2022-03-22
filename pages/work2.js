@@ -17,8 +17,8 @@ export default function Works() {
       <Box sx={{ flexGrow: 1 }}>
       <Grid container 
         direction="row"
-        justifyContent="space-around"
-        alignItems="flex-start"
+        justifyContent="space-evenly"
+  alignItems="center"
       spacing={2}
       className='workBox'
     
