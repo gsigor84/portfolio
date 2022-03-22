@@ -25,7 +25,7 @@ const slides= [
 
 const description ='Fitness App written in NEXT.JS and  using Strapi API. You can select the muscle part and make your workout plan.'
 
-const link ='https://gxng.vercel.app'
+const link ='https://gxng2.vercel.app'
 
 export default function Gxng() {
 
