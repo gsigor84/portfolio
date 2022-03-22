@@ -151,7 +151,7 @@ sx={{backgroundColor:'#D9043D' }}
       <ListItem button>
       <a href='https://www.udemy.com/course/sql-and-postgresql/'>
       <Typography variant="h7"  sx={{color:'black'}} >
-      SQL and PostgreSQL: The Complete Developer's Guide
+      SQL and PostgreSQL: The Complete Developers Guide
       </Typography>
       </a>
       </ListItem>
