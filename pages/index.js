@@ -30,7 +30,7 @@ className="fullscreen"
 <Work2/>
 </Grid>
 
- <Grid item xs={12} md={12}  sx={{marginTop:'10%'}}  >      
+ <Grid item xs={12} md={12}    >      
 <Blog/>
 </Grid>
 

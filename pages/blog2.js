@@ -29,14 +29,14 @@ const Blog2 = () => {
     <Box sx={{ flexGrow: 1 }}>
   <Grid container 
   direction="row"
-  justifyContent="center"
-  alignItems="flex-end"
+  justifyContent="space-evenly"
+  alignItems="center"
   className='blogBox'
   sx={{position:'relative'}}
   >
         <Grid item xs={12} md={2}>
     <div className='svg2' >
-        <span className='subTitle1' style={{fontSize:'80px'}}>
+        <span className='subTitle1' style={{fontSize:'80px',color:'white'}}>
 Blog.
 </span>
 </div>

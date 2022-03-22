@@ -58,27 +58,19 @@ a {
 
 }
 .svg2{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  filter: opacity(90%) ;
-  border-radius: 10px;
+
   top:180px;
   z-index: 2;
   position: relative;
 }
 .svg3{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  filter: opacity(90%) ;
-  border-radius: 10px;
+
   height:40vh;
-  width:20vw;
+  width:30vw;
   z-index: 1;
   position: relative;
- left:-15%;
- top:-20%;
+ left:-50%;
+ top:-50px;
  
  
 }
