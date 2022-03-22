@@ -39,7 +39,7 @@ className="fullscreen"
 <Grid item xs={12} md={12} >
 <Form/>
 </Grid>
-<Grid item xs={12} md={12} sx={{marginTop:'10%'}}   >
+<Grid item xs={12} md={12} sx={{marginTop:'5%'}}    >
 <Know/>
 </Grid>
 </Grid>

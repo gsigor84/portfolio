@@ -159,6 +159,11 @@ a {
   padding-Top:'2%';
   width: 900px;
 }
+.courses{
+  height:400px;
+
+margin-top: 5%;
+}
 @media only screen and (max-width: 600px) {
 .card{
   margin-block: 2%;
@@ -223,7 +228,7 @@ a {
   }
   .courses{
     margin-bottom:80px;
-
+margin-top: 60px;
   }
 
 }

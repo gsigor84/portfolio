@@ -104,9 +104,9 @@ sx={{backgroundColor:'#D9043D' }}
   sx={{margin:'4%'}}
 >
 <Grid item xs={12} md={6} className='courses'>
-<Typography className='subTitle1' sx={{color:'black',fontSize:'30px'}} >
+<span style={{fontSize:'30px',color:'black'}} className='subTitle1' >
      Courses
-      </Typography>
+      </span>
 
 <List sx={style} component="nav" aria-label="mailbox folders">
       <ListItem button>
