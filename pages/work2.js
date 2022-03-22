@@ -24,9 +24,9 @@ export default function Works() {
     
       >    
         {itemData.map((item,index) => (
-          <Link href={item.link}>
+          <Link href={item.link} key={index} >
           <a>
-         <Card sx={{ maxWidth: 345,boxShadow: "none"}} key={index} className='card'>
+         <Card sx={{ maxWidth: 345,boxShadow: "none"}} className='card'>
       <CardMedia
         component="img"
         height="140"
