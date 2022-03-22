@@ -36,9 +36,9 @@ return(
  >
         <Grid item xs={12} md={6} sx={{margin:'2%'}}>
           <div style={{backgroundColor:'#D9043D',padding:'6%',borderRadius: 10}}>
-        <Typography variant="h2" component="div" className='subTitle1' >
+        <span style={{fontSize:'60px', lineHeight:1 }}className='subTitle1' >
   Welcome to my Portfolio 
-</Typography>
+</span>
 
 <Typography  variant="h6"  className='p1'sx={{paddingBlock:'2%'}}  >
 I’m Igor . I’m 37 years old. I’m a Web Developer who prioritize simplicity and usability.  
