@@ -1,32 +1,18 @@
-<Box sx={{ flexGrow: 1 }}>
-<Grid
-container
-direction="row"
-justifyContent="center"
-alignItems="center"
-className='workBox'
-spacing={4}
->
-  
-
-{itemData.map((item,index) => (
-<Grid item xs={12} md={4}  key={index} className='workIn' >
-<Link href={item.link}>
-<a>
-
-<div className='backwork' style={{backgroundImage: `url('${item.image}') `}}>
-<div className='square'>
-     
-</div>
-</div>
-  </a>
-</Link>
-
-  </Grid>
-))}
-
- 
-</Grid>
-
-
+<Avatar alt="Remy Sharp" src="/1.png"  sx={{ width: '20%', height:'20%'}}/>
+                </Grid>
+            <Grid   style={{padding:'3%'}}>
+                <Box>
+            <Typography variant="h6"   color="text.secondary" >
+                
+            I grew up in Sao Paulo.
+After I got my hands wet with python I soon discovered my passion for programming while doing web scrapping. 
+Now I live in England working full time freelance as aWeb Developer. In my spare time I like to go to the gym and reading.
+I enjoy building interactive, social mediaapplications with an eye on animated content.
+If you fancy a chat feel free to contact me:
+                </Typography>
 </Box>
+<Box>
+
+<Typography  variant="h6" color="text.secondary" sx={{marginTop:'3%'}}  >
+webdevigs@gmail.com
+</Typography>
