@@ -18,7 +18,7 @@ export default function Home() {
 <Grid container 
  direction="row"
  justifyContent="center"
- alignItems="center"
+ alignItems="flex-start"
 className="fullscreen"
 >
 
@@ -26,7 +26,7 @@ className="fullscreen"
 <Bio/>
 </Grid>
 
-<Grid item xs={12} md={12} sx={{marginTop:'14%'}}  >
+<Grid item xs={12} md={12} sx={{marginTop:'10%'}}  >
 <Work2/>
 </Grid>
 

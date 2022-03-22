@@ -18,7 +18,7 @@ export default function Works() {
       <Grid container 
         direction="row"
         justifyContent="space-evenly"
-  alignItems="center"
+        alignItems="flex-start"
       spacing={2}
       className='workBox'
     
