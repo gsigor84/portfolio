@@ -164,6 +164,15 @@ a {
 
 margin-top: 5%;
 }
+.backImage{
+  background-Color:'black';
+  width:100vw;
+  height:70vh;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+ 
+
+}
 @media only screen and (max-width: 600px) {
 .card{
   margin-block: 2%;
@@ -203,13 +212,12 @@ margin-top: 5%;
   }
   .svg3{
 
-    filter: opacity(90%) ;
-    border-radius: 10px;
     height:50vh;
     width:90vw;
     z-index: 1;
     position: relative;
-   left:7%;
+   left:-20%;
+   top:-35px;
   }.textBox{
     padding-Top:'2%';
     width: 300px;

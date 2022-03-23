@@ -19,18 +19,8 @@ const img= [
 },
 ]
 
-const slides= [
-  {
-    url: '/apps/z1.png'
-  },
-  {
-    url: '/apps/z2.png'
-  },
-  {
-    url: '/apps/z3.png'
-  },
+const slides= 'url(/apps/z1.png)'
 
-]
 
 const description = 'Zohar its an app written in React Native and running Node.js and MongoDB on the background. Python is also used to scrap the news from the web.'
 

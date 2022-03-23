@@ -12,18 +12,10 @@ const img= [
 }
 ]
 
-const slides= [
-    { url: '/apps/g1.png' },
-  {
-    url: '/apps/g2.png'
-},  {
-    url: '/apps/g3.png'
-},  {
-    url: '/apps/g4.png'
-},
-]
+const slides= 'url(/apps/g1.png)'; 
 
-const description ='Fitness App written in NEXT.JS and  using Strapi API. You can select the muscle part and make your workout plan.'
+
+const description ='Fitness App is written in NEXT.JS and use Strapi API. You can select the muscle part and make your workout plan.'
 
 const link ='https://gxng2.vercel.app'
 

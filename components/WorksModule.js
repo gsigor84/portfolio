@@ -7,6 +7,7 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import Link from 'next/link'
 import Image from 'next/image'
 import Slider from './SliderModule'
+import Avatar from '@mui/material/Avatar';
 
 
 
@@ -16,78 +17,62 @@ export default function worksModule({title,description,icons,logo,link,slides}) 
     return(
 
 
-<Grid container  spacing={4}  sx={{paddingTop:'3%'}}>
-  
-<Grid item xs={12} md={12}  >
+<Box sx={{ flexGrow: 1}}>
+ <Grid 
+   container
+   direction="row"
+   justifyContent="space-between"
+   alignItems="center"
+sx={{backgroundColor:'#F2B705' }}
+ >
+        <Grid item xs={12} md={6} sx={{margin:'2%'}}>
+          <div style={{padding:'6%',borderRadius: 10}}>
+          <Link href='/' >
+            <a>
+            <ArrowBackIcon sx={{color:'white',marginBottom:'6%',fontSize:'30px'}}/>
+            </a>
+            </Link  >
+            </div>
+<p style={{fontSize:'60px', lineHeight:1,color:'white' }}className='subTitle1' >
+What is {title} ?
+</p>
 
-<Grid container spacing={1}  >
-
-<Grid item xs={1} md={1} sx={{marginTop:'1%'}} >
-
-      <ArrowBackIcon sx={{ fontSize: 20 }} color="text.secondary" /> 
-
-      </Grid>
-
-
-      <Grid item xs={11} md={11} >
-  
-      <Typography color="text.secondary"  variant="h6" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
-<Link href="/" >Back to home </Link>
-</Typography>
-
-</Grid>
-</Grid>
-</Grid>
-
-<Grid item xs={12} md={12}  >
-         <Card sx={{ maxWidth: 345 }}    style={{boxShadow: "none"}}>
- <CardMedia
-        component="img"
-        height="140"
-        image={logo}
-        alt="green iguana"
-      
-      />
-      </Card>
-      </Grid>
-      <Grid item xs={12} md={12}  >
-<Typography variant="h5" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
-What is {title}
-</Typography>
-
-<Typography  variant="body2" color="text.secondary" >
-
+<Typography variant="h6"   sx={{color:'white'}} >
 {description}
-<Grid item xs={12} md={12} sx={{paddingTop:'2%'}}  >
-<a href={link} style={{textDecoration: 'underline'}}>{link}</a>
-</Grid>
 </Typography>
+<Grid item xs={12} md={12} sx={{paddingTop:'2%'}}  >
+<a href={link} >
+<Typography variant="h6"   sx={{color:'white'}} > 
+  {link}
+  </Typography>
+  </a>
 </Grid>
-<Grid container sx={{padding:'2%'}} >
-
-{icons.map((icon,index)=>{
+<Grid
+  container
+  direction="row"
+  justifyContent="space-evenly"
+  alignItems="flex-start"
+ 
+  sx={{marginBlock:'4%',paddingRight:'50%'}}
+>
+            {icons.map((icon,index)=>{
 
 return(
-   
-<Grid item xs={2} md={1} sx={{padding:'2%',margin:'3%'}} key={index} >
-           <Image src={icon.image} alt='custmon' width={50} height={50}/>
-           </Grid>
 
+<Grid item xs={12} md={2} key={index}>
+<Avatar  src={icon.image}  sx={{ width: 45, height: 45 }}  className='avatar' />
+</Grid> 
 )
+            })}
+             </Grid>
+             
 
-})}
-</Grid>
-<Grid item xs={12} md={12} sx={{padding:'2%'}}  >
-<div   style={{
-    height: '60vh',
-    width: '100%',
-   
-  }}  >
-<Slider slides={slides}/>
+          
+            </Grid>
+<Grid item xs={12} md={12} className='backImage' sx={{backgroundImage: `${slides}`}} / >
 
-</div>
-</Grid>
-</Grid>
+            </Grid>
+            </Box>
 
     )
 

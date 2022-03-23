@@ -1,18 +1,64 @@
-<Avatar alt="Remy Sharp" src="/1.png"  sx={{ width: '20%', height:'20%'}}/>
-                </Grid>
-            <Grid   style={{padding:'3%'}}>
-                <Box>
-            <Typography variant="h6"   color="text.secondary" >
-                
-            I grew up in Sao Paulo.
-After I got my hands wet with python I soon discovered my passion for programming while doing web scrapping. 
-Now I live in England working full time freelance as aWeb Developer. In my spare time I like to go to the gym and reading.
-I enjoy building interactive, social mediaapplications with an eye on animated content.
-If you fancy a chat feel free to contact me:
-                </Typography>
-</Box>
-<Box>
+<ArrowBackIcon sx={{ fontSize: 20 }} color="text.secondary" /> 
 
-<Typography  variant="h6" color="text.secondary" sx={{marginTop:'3%'}}  >
-webdevigs@gmail.com
+      </Grid>
+
+
+      <Grid item xs={11} md={11} >
+  
+      <Typography color="text.secondary"  variant="h6" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
+<Link href="/" >Back to </Link>
 </Typography>
+
+</Grid>
+</Grid>
+</Grid>
+
+<Grid item xs={12} md={12}  >
+         <Card sx={{ maxWidth: 345 }}    style={{boxShadow: "none"}}>
+ <CardMedia
+        component="img"
+        height="140"
+        image={logo}
+        alt="green iguana"
+      
+      />
+      </Card>
+      </Grid>
+      <Grid item xs={12} md={12}  >
+<Typography variant="h5" gutterBottom component="div" sx={{fontFamily: 'Nunito Sans', fontWeight: '600'}} >
+What is {title}
+</Typography>
+
+<Typography  variant="body2" color="text.secondary" >
+
+{description}
+<Grid item xs={12} md={12} sx={{paddingTop:'2%'}}  >
+<a href={link} style={{textDecoration: 'underline'}}>{link}</a>
+</Grid>
+</Typography>
+</Grid>
+<Grid container sx={{padding:'2%'}} >
+
+{icons.map((icon,index)=>{
+
+return(
+   
+<Grid item xs={2} md={1} sx={{padding:'2%',margin:'3%'}} key={index} >
+           <Image src={icon.image} alt='custmon' width={50} height={50}/>
+           </Grid>
+
+)
+
+})}
+</Grid>
+<Grid item xs={12} md={12} sx={{padding:'2%'}}  >
+<div   style={{
+    height: '60vh',
+    width: '100%',
+   
+  }}  >
+<Slider slides={slides}/>
+
+</div>
+</Grid>
+</Grid>
