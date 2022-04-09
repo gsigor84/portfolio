@@ -8,6 +8,8 @@ import Grid from '@mui/material/Grid';
 
 
 
+
+
 export default function Home() {
 
 
@@ -24,7 +26,10 @@ className="fullscreen"
 
 <Grid item xs={12} md={12}  >
 <Bio/>
+
 </Grid>
+
+
 
 <Grid item xs={12} md={12} sx={{marginTop:'10%'}}  >
 <Work2/>
