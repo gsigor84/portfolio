@@ -1,7 +1,6 @@
 import React ,{useEffect} from "react";
 import dynamic from 'next/dynamic'
-import { linearProgressClasses } from "@mui/material";
-import { CenterFocusStrong } from "@mui/icons-material";
+
 
 // Will only import `react-p5` on client-side
 const Sketch = dynamic(() => import('react-p5').then((mod) => mod.default), {
