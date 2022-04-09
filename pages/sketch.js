@@ -11,7 +11,7 @@ const Sketch = dynamic(() => import('react-p5').then((mod) => mod.default), {
 let x = 50;
 
 
-export default  (props) => {
+export default function MyComponent (props) => {
 
   useEffect(() => {
     x = window.innerWidth
